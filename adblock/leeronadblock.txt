@@ -1,0 +1,24 @@
+! Title: Leeron's Personal Filters
+! Version: 1.0.4
+
+! n12.co.il,mako.co.il#$#[class*="Hidden__"] { position: unset !important; top: unset !important; left: unset !important; transform: unset !important; }
+! n12.co.il,mako.co.il#$#[class*="_hidden__"] { position: unset !important; top: unset !important; left: unset !important; transform: unset !important; }
+! n12.co.il,mako.co.il#$#[class*="Maavaron_rootFixed__"] { position: fixed !important; z-index: -20 !important; top: 0 !important; visibility: hidden !important; }
+! n12.co.il,mako.co.il#$#.overlay { z-index: -12 !important; visibility: hidden !important; }
+! n12.co.il,mako.co.il#$#[class*="Maavaron_root__"] { min-height: unset !important; height: 0 !important; padding-bottom: unset !important; visibility: hidden !important; }
+! n12.co.il,mako.co.il#$#[class*="AdComponent_mobile__"] { visibility: hidden !important; height: 0 !important; }
+
+! n12.co.il,mako.co.il##[class*="Maavaron_rootFixed__"]
+! n12.co.il,mako.co.il##.overlay
+! n12.co.il,mako.co.il##[class*="Maavaron_root__"]
+! n12.co.il,mako.co.il##[class*="AdComponent_mobile__"]
+! n12.co.il,mako.co.il#$#[class*="Hidden__"] { position: unset !important; top: unset !important; left: unset !important; transform: unset !important; }
+! n12.co.il,mako.co.il#$#[class*="_hidden__"] { position: unset !important; top: unset !important; left: unset !important; transform: unset !important; }
+
+n12.co.il,mako.co.il##[class^="Maavaron_root"]
+n12.co.il,mako.co.il##.overlay
+n12.co.il,mako.co.il##[class*="AdComponent_mobile__"]
+n12.co.il,mako.co.il#$#[class*="Hidden__"] { position: unset !important; top: unset !important; left: unset !important; transform: unset !important; }
+n12.co.il,mako.co.il#$#[class*="_hidden__"] { position: unset !important; top: unset !important; left: unset !important; transform: unset !important; }
+
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=13tv.co.il

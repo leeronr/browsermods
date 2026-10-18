@@ -1,0 +1,506 @@
+/* ==UserStyle==
+@name           ynet Dark Mode
+@namespace      LAX2TLV
+@author         Leeron
+@description    Dark theme for ynet.co.il. Based on "Ynet Dark - עיצוב כהה" by Idomo.
+@version        2026.2
+@license        CC-BY-SA-4.0
+@preprocessor   uso
+==/UserStyle== */
+@-moz-document domain("ynet.co.il") {
+    html,
+    .ArticleHeaderComponent,
+    .ArticleBodyComponent,
+    #ArticleHeaderComponent,
+    .ArticleBodyComponent .text_editor_paragraph,
+    .SocialNetworkSharer,
+    .YnetHeader .headerTop,
+    .WeatherViewInHeader .weatherCitieSelect,
+    .menuMore.open,
+    .FlashPageComponenta,
+    .MultiImages1280Componenta .slotsContent .slotView,
+    .MultiImagesYplusComponenta .slotsContent .slotView,
+    .grid1280_2 .TickerComponenta1280 .slotListRow .slotView .tooltip,
+    .pplus #main,
+    .site_page_root,
+    #ArticleBodyComponent .blogs-auto-feed-item.responsive {
+        background-color: #222;
+        color: #fafafa;
+    }
+
+    .TickerSliderComponenta.short .slotsContent .animationDiv .slick-list .slick-slide .slotView,
+    .TickerSliderComponenta.short .titleArea {
+        background: #333;
+    }
+
+    .TickerSliderComponenta .slotsContent .animationDiv .slotView .itemTitle,
+    .TickerSliderComponenta .slotsContent .animationDiv .slotView .text,
+    #ArticleBodyComponent .blogs-auto-feed-item.responsive .item-info .title-row .title-section {
+        color: #fafafa !important
+    }
+
+    .slotView {
+        color: #000;
+    }
+
+    .TickerSliderComponenta .slotsContent {
+        background-color: #333 !important;
+    }
+
+    .FlashPageComponenta.flash-special .flash-page-special-component .slotList .special-page-flash-item,
+    .newsflash-special-desktop-component .newsflash-special-desktop-slot-list,
+    .newsflash-special-desktop-component .bell-icon,
+    .newsflash-special-desktop-component .more-flashes-btn {
+
+        background-color: #333;
+    }
+
+    .newsflash-popup-container .popup-items-list .popup-item::after {
+        background-color: #626262;
+    }
+
+    .newsflash-popup-container .popup-items-list .popup-item.now {
+        background-color: #421C1C !important;
+    }
+
+    .FlashPageComponenta.flash-special .flash-page-special-component .slotList .special-page-flash-item:hover:not(.open) .slotTitle {
+
+        /* color: #1417AC !important; */
+        color: #de1a1a !important;
+        /* text-decoration: underline !important; */
+    }
+
+    .newsflash-special-desktop-component .newsflash-special-desktop-slot-list .slick-list .slick-track .slick-slide .newsflash-special-desktop-item .slotInfo:hover .slotInfoText .slotTitle {
+
+        color: #de1a1a !important;
+        /* text-decoration: underline !important; */
+    }
+
+
+
+
+    .newsflash-popup-container {
+
+        background-color: #222;
+    }
+
+    .newsflash-popup-container .popup-header .popup-title,
+    .newsflash-popup-container .popup-items-list .popup-item .popup-item-content .popup-item-body-text {
+        color: white;
+    }
+
+    .newsflash-popup-container .popup-items-list .popup-item.open .popup-item-text .popup-item-title {
+        color: white;
+        text-decoration: underline !important;
+    }
+
+    .newsflash-popup-container .popup-items-list .popup-item .popup-item-text .popup-item-title,
+    .newsflash-popup-container .popup-items-list .popup-item .popup-item-content .popup-share-and-more .to-all-flashes-btn .btn-title {
+        color: white;
+    }
+
+    .newsflash-popup-container .popup-items-list .popup-item .popup-item-content .popup-share-and-more .to-all-flashes-btn:hover .btn-title {
+        color: #de1a1a;
+    }
+
+    .newsflash-popup-container .popup-items-list .popup-item .popup-item-content .popup-share-and-more .to-all-flashes-btn .btn-arrow {
+        filter: none !important;
+    }
+
+    .newsflash-popup-container .popup-items-list .popup-item:hover:not(.open) .popup-item-title {
+        color: #de1a1a !important;
+    }
+
+
+
+    .newsflash-popup-container .popup-items-list .popup-item.open {
+        background-color: #333;
+    }
+
+    .newsflash-share-menu {
+        filter: invert(100);
+    }
+
+    .TickerSliderComponenta.short .slotsContent .animationDiv .slick-list .slick-slide .slotView .buttonsArea .flashDate {
+        color: #888
+    }
+
+    .OpinionsComponenta .slotsWrapper .slotListWrapper .opinionsSlotItem {
+        background-color: #333;
+    }
+    .MultiImages1280Componenta {
+        background-color: #333 !important;
+    }
+
+    @keyframes highlightFlash {
+        0% {
+            background-color: #7a2a2a;
+        }
+        70% {
+            background-color: #7a2a2a;
+        }
+        100% {
+            background-color: transparent;
+        }
+    }
+
+    .TickerSliderComponenta.short .slotsContent .animationDiv:after {
+        background-image: linear-gradient(to right, #222 20px, rgba(243, 248, 249, 0) 100px) !important
+    }
+
+    .TickerSliderComponenta.short .slotsContent .animationDiv .slick-arrow.slick-next,
+    .TickerSliderComponenta.short .slotsContent .animationDiv .slick-arrow.slick-prev {
+        background-image: url("data:image/svg+xml,%3Csvg width='20' height='21' viewBox='0 0 20 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cg id='Arrows'%3E %3Crect x='19.5' y='0.694824' width='19' height='19' rx='9.5' transform='rotate(90 19.5 0.694824)' stroke='%23888'/%3E %3Cpath id='Vector 31' d='M8.75781 6.19482L13.0005 10.4375L8.75781 14.6801' stroke='%23888' stroke-width='1.5' stroke-linecap='square'/%3E %3C/g%3E %3C/svg%3E");
+    }
+
+
+    .TickerSliderComponenta.short .slotsContent .animationDiv .slick-list .slick-slide .slotView .buttonsArea .shareBtn {
+        background: url("data:image/svg+xml,%3Csvg width='25' height='25' viewBox='0 0 25 25' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3Cg clip-path='url(%23z96p6565za)'%3E %3Cpath d='M17.188 5.469a2.344 2.344 0 0 0-2.344 2.343c0 .14.014.278.04.414l-5.358 2.681a2.343 2.343 0 0 0-1.713-.75 2.344 2.344 0 0 0 0 4.687 2.344 2.344 0 0 0 1.713-.751l5.354 2.68a2.344 2.344 0 1 0 1.372-1.733c-.294.13-.56.318-.778.555l-5.354-2.678a2.338 2.338 0 0 0-.004-.835l5.358-2.676a2.344 2.344 0 0 0 1.713.75 2.344 2.344 0 1 0 0-4.687z' fill='%23888'/%3E %3C/g%3E %3Cdefs%3E %3CclipPath id='z96p6565za'%3E %3Cpath fill='%23fff' d='M0 0h25v25H0z'/%3E %3C/clipPath%3E %3C/defs%3E %3C/svg%3E") no-repeat center center transparent;
+    }
+
+
+    .TickerSliderComponenta .slotsContent .animationDiv .slotView .buttonsArea .openMoreButton {
+        /* box-shadow: none; */
+        border-radius: 50%;
+        border: solid 1px #efefef;
+        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='7.41' viewBox='0 0 12 7.41'%3E %3Cpath id='arrow' d='M7.41,8.59,12,13.17l4.59-4.58L18,10l-6,6L6,10Z' transform='translate(-6 -8.59)'  fill='white' /%3E %3C/svg%3E") no-repeat center 9px #222;
+        box-sizing: border-box;
+        cursor: pointer;
+        color: white;
+    }
+
+    .slotView .a:hover {
+        color: white !important;
+    }
+
+    .TickerSliderComponenta .titleArea {
+        box-shadow: none;
+        border: solid 0 #de1a1a;
+        background-color: #333;
+    }
+
+    .TickerSliderComponenta .titleArea .gotoButton {
+        border: solid 1px #fafafa;
+        color: #fafafa;
+    }
+
+    .TopStory1280Componenta.Multi.basic.light .textDiv,
+    .YnetHeader.light .BottomHeaderArea .mainNav {
+        background-color: #222;
+    }
+
+    .TopStory1280Componenta.Multi.basic.light .textDiv *:not(.author,
+    a,
+    .redlabel > span,
+    .roofTitle span),
+    .slotTitle[style],
+    .slotTitle *[style],
+    .TopStory1280Componenta.Multi.basic.light .textDiv .slotSubTitle *[style],
+    .YnetHeader .BottomHeaderArea .mainNav .navList > div > *,
+    .moreBtn,
+    .searchBtn,
+    .subTitle {
+        color: #fafafa !important;
+    }
+
+    .menuToggler,
+    .moreIcon {
+        filter: invert(0) !important;
+    }
+    .mainNav .navList > div > .moreIcon.toOpen {
+        filter: invert(100)
+    }
+
+
+    .article_title,
+    .art_header_title,
+    .art_tkb_talkback_title,
+    .art_tkb_talkback_index,
+    .art_headlines a,
+    #SiteArticleComments .topView .commentTitle,
+    #SiteArticleComments .topView .commentText,
+    #SiteArticleComments .topView .details,
+    .ArticleCommentsTopTabUI1280 .tabTitle span:not(.tbIcon),
+    A.tickerTextA:link,
+    A.tickerTextA:visited,
+    .TickerComponenta1280 .slotListRow .slotView .moreDetails a,
+    .multiarticles .mta_pic_text,
+    .multiarticles .mta_title,
+    .multiarticles .mta_title:link,
+    .multiarticles .mta_title:visited,
+    .multiarticles .mta_title:active,
+    .multiarticles .mta_title:hover,
+    .bigdealhomepage .bdl_items .bdl_item .item_title,
+    .WinWinHP1024 .item_container .item_title a,
+    .rpphp_main_header .pphp_main .rpphp_main_title span,
+    .multiimagesnews_main .multiimagesnews_main_title span,
+    .pphp_main .pphp_main_title span,
+    .MultiImagesLeft_main .MultiImagesLeft_main_title span,
+    .ArticleBodyComponent .ArticleImageComponenta .ImageDetails > *,
+    .ArticleImageCaption,
+    .YnetHeader .headerTop .rightSideLinks > *,
+    .YnetHeader .headerTop .YnetPremiumHeaderLogin .loginBtn,
+    .FlashPageComponenta .Accordion .AccordionSection .titleRow .date,
+    .FlashPageComponenta .Accordion .radioViewsPreference label,
+    .FlashPageComponenta .Accordion .AccordionSection .titleRow.opened .date,
+    .FlashPageComponenta .Accordion .AccordionSection .titleRow.opened .title,
+    .PremiumArticleHeaderComponenta .title,
+    .PremiumArticleHeaderComponenta .subTitle,
+    .blog-auto-feed .blogs-auto-feed-items-container .blogs-auto-feed-item.responsive .item-info .title-row .title-section,
+    .font-moses .TickerSliderComponenta .titleArea .tickerTitle,
+    .ynet.grid1280_2 .VideoComponenta #art_video_caption_id,
+    .ynet.grid1280_2 .VideoLiveComponenta #art_video_caption_id,
+    .grid1280_2 .ArticleBodyComponent .ArticleImageComponenta .ImageDetails .ImageCaption {
+        color: #fafafa;
+    }
+
+    .YnetHeader .headerTop .logo img {
+        background-color: white;
+    }
+
+    .BlogsPageTitle,
+    .BlogsPageSubTitle,
+    .trj_subnav a,
+    .categoryBreadcrumbs a,
+    ul.trj_trajectory a,
+    a.title,
+    .ArticleBodyComponent .pHeader,
+    .TopStory1280Componenta *,
+    .categoryBreadcrumbs1280_2 ul li:first-child a,
+    .categoryBreadcrumbs1280_2 ul li:first-child span,
+    .TickerComponenta1280 .slotListRow .slotView .moreDetails > a,
+    .TickerComponenta1280 .slotListRow .slotView .moreDetails a:hover,
+    .AddCommentForm .AddCommentFormContainer .bottomPanel .termsOfService,
+    .MultiImages1280Componenta .slotsContent .slotView a div,
+    .MultiImages1280Componenta .slotsContent .slotView a:hover div,
+    .MultiImagesYplusComponenta .slotsContent .slotView a div,
+    .MultiImagesYplusComponenta .slotsContent .slotView a:hover div,
+    .ynet .MultiArticleAutoComponenta1280 .slotsContent .withImagePreview .slotView .MultiImagesTopItemCol .slotTitle,
+    .ynet .MultiArticleAutoComponenta1280 .slotsContent .slotList .slotView .MultiImagesTopItemCol .slotTitle,
+    .slotTitle,
+    .slotTitle span,
+    .slotTitle a,
+    .slotSubTitle,
+    .slotSubTitle span,
+    .slotSubTitle a,
+    a[style="color:#000000"] {
+        color: #fafafa !important;
+    }
+
+    .art_header_sub_title,
+    .ArticleHeaderComponent .subTitleWrapper .subTitle,
+    a.sub-title,
+    .grid1280_2 .TickerComponenta1280 .slotListRow .slotView:hover > .slotTitle,
+    .grid1280_2 .TickerComponenta1280 .slotListRow .slotView:hover > .moreDetails > a > div,
+    #PremiumArticleComment .topView .topLeftView .commentDetailsWrapper .details .author {
+        color: #ddd !important;
+    }
+
+    .art_tkb_talkback_content.art_tkb_talkback_content_visible,
+    .ArticleComment .expandedView .commentText,
+    .blog-auto-feed .blogs-auto-feed-items-container .blogs-auto-feed-item.responsive {
+        background-color: #222;
+    }
+
+    .art_tkb_talkback.art_tkb_talkback_open,
+    .ArticleComment.expanded,
+    .MSAmiddleContent,
+    .ticker_comp .news_ticker_iframe {
+        background-color: #333;
+    }
+
+    .AddCommentFormUI1280 .AddCommentForm .AddCommentFormContainer .userDetailsInputs .userDetailsInput,
+    .AddCommentFormUI1280 .AddCommentForm .AddCommentFormContainer .inputStyle {
+        background-color: #333;
+        color: #fafafa;
+    }
+
+    #aTicker table,
+    #bTicker table {
+        background-color: #333 !important;
+    }
+
+    /* Leeron */
+    .moreTickersLink,
+    .TickerComponenta1280 {
+        background-color: #333 !important;
+        border-color: #333 !important;
+        box-shadow: none !important;
+    }
+
+    .articlePromoSlot {
+        background-color: #333 !important;
+        border-color: #333 !important;
+    }
+
+    .grid1280_2 .TickerComponenta1280 .slotListRow .slotView .tooltip {
+        box-shadow: 0 0 6px 2px rgba(19, 19, 19, 0.5) !important;
+    }
+
+    .YplusMultiImagesComponenta .slotsContent .slotView {
+        background: #2d2d2d;
+    }
+
+    .YplusMultiImagesComponenta .multiImagesTab {
+        color: #fafafa;
+    }
+
+    /* */
+    .MSAmiddleContent li p,
+    a,
+    .mainVerticalArticleSharingLinks a.ASLtextIconLink,
+    #SiteArticleComments .topView .topLeftView .details .commentToComent {
+        color: #88A6E5;
+    }
+
+    .DateCaption {
+        color: #d80e11;
+    }
+
+    .main_search {
+        background: #7b7676;
+    }
+
+    h2.trj_image,
+    .category-image img,
+    .YnetHeader .headerTop .rightSideLinks > * .headerIcon,
+    .AccordionSocialsShareComponenta .shareIcon1280,
+    .blog-auto-feed .blogs-auto-feed-items-container .blogs-auto-feed-item.responsive .item-info .authorAndSocial .social-icon {
+        filter: invert(100%);
+    }
+
+    .FlashPageComponenta .Accordion .AccordionSection .titleRow .itemToggler {
+        filter: invert(0);
+    }
+
+    .iframeComponenta,
+    .iframeComponenta img {
+        filter: invert(1);
+    }
+
+    .tbl-rtl,
+    .tbl-feed-container {
+        display: none;
+    }
+
+    #SiteArticleComments .topView .commentTitle.redTitleText {
+        color: #de1a1a;
+        font-weight: 600;
+    }
+
+    .ArticleComment1280 .topView .topLeftView .details .voteButtonsWrapper svg.likeSvg:hover g,
+    .ArticleComment1280 .topView .topLeftView .details .voteButtonsWrapper svg.likeSvg.likePressed g,
+    .ArticleComment1280 .topView .topLeftView .details .voteButtonsWrapper svg.dislikeSvg:hover g,
+    .ArticleComment1280 .topView .topLeftView .details .voteButtonsWrapper svg.dislikeSvg.dislikePressed g {
+        fill: #5456b2;
+    }
+
+    .spotimWrapper.popUp {
+        background-color: #111;
+    }
+}
+
+@-moz-document url-prefix("https://www.ynet.co.il/Ext/Comp/CdaNewsFlash") {
+    html {
+        zoom: 1.5;
+    }
+
+    body,
+    table {
+        background-color: #222;
+    }
+
+    .text12,
+    .text20b,
+    .text16 {
+        color: #fafafa;
+    }
+}
+
+@-moz-document domain("infogram.com") {
+    .InfographicEditor-Contents-Block {
+        background-color: #222 !important;
+    }
+
+    .ItemContent-text [data-text="true"] {
+        color: #fff;
+    }
+
+    g.text_tick text,
+    g.tick text,
+    g.igc-label text,
+    g.igc-x-values text {
+        fill: #ddd !important;
+    }
+
+    g.tick rect {
+        fill: rgba(255, 255, 255, .2) !important;
+    }
+
+    g.igc-labels text,
+    text.igc-graph-pie-label,
+    g.igc-graph-group text {
+        stroke: #fff;
+        stroke-width: 3px;
+        stroke-linejoin: round;
+        paint-order: stroke;
+    }
+
+    ._1ReWgYUONQstNoqE4Pn496 ellipse {
+        fill: transparent;
+    }
+
+    .sheet-player .sheet-player-slider-progress {
+        background-color: rgba(255, 255, 255, .4);
+    }
+
+    .sheet-player .sheet-player-slider-rail,
+    .sheet-player .sheet-player-circle {
+        background-color: rgba(255, 255, 255, .2);
+    }
+
+    .sheet-player .sheet-player-circle:after {
+        border-color: transparent transparent transparent #fff !important;
+    }
+
+    table.igc-table tr {
+        background-color: #000 !important;
+        color: #fff !important;
+    }
+
+    table.igc-table tr:nth-child(odd) {
+        background-color: #444 !important;
+    }
+}
+
+@-moz-document url-prefix("https://z.ynet.co.il/fast/content/2020/coronavirus") {
+    body {
+        background-color: #222;
+    }
+
+    .main .flex-box .title,
+    .main .flex-box .desc {
+        color: #d0d4dc
+    }
+
+    .main .flex-box {
+        background-color: #313132;
+        border-color: #50515a;
+    }
+
+    .main .flex-box .number {
+        text-shadow: 1px 1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, -1px -1px 0 #FFF, 1px 0px 0 #FFF, 0px 1px 0 #FFF, -1px 0px 0 #FFF, 0px -1px 0 #FFF, 0px 0px 1px rgba(255, 255, 255, 0);
+    }
+}
+
+@-moz-document url-prefix("https://kayma-dashboards.com") {
+    .RcRvl,
+    .izOMCT {
+        background-color: #333;
+        color: #FFF;
+    }
+
+    .STxCN {
+        color: #FFF;
+    }
+}
